@@ -4,8 +4,8 @@ move element by css3 transition or $.animate
 jQuery.move is a jQuery plugin for move elements; Using the transition in modern browsers to move elements, and still use jQuery's animation in the browser that doesn't support the CSS3 transition.
 
 
-| example
-
+### example
+```javascript
 $("#box").move({
     left: -100,                     // left move 100px
     speed: 800,                     // time micro sec
@@ -21,3 +21,4 @@ $("#box").move({
         console.log("move end.");
     }
 })
+```
